@@ -1,0 +1,217 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*encabezado*/
+.site-header {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: white;
+    
+}
+.site-header h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+.site-header span {
+    font-weight: 1000;
+}
+.site-header a {
+    text-decoration: none;
+   
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 150px;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navegacion a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.texto-header {
+    margin-top: 2rem;
+}
+
+/* Estilos para el contenido principal */
+.contenido-principal {
+    margin-top: 100px; /* Ajusta el margen superior para que comience después del encabezado */
+    display: flex;
+    gap: 20px;
+}
+
+/* Estilos para el blog */
+.blog {
+    flex: 2;
+}
+
+.entrada-blog {
+    /*display: flex;*/
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.imagen img {/*------------------*/
+    max-width: 600px;
+    height: auto;
+}
+
+.imagen2 img {
+    max-width: 350px;
+    height: auto;
+}
+
+/* Estilos para el menú de cursos */
+.cursos {
+    flex: 1;
+    /*background-color: #f9f9f9;*/
+    padding: 20px;
+    /*box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);*/
+}
+
+.cursos h2 {
+    margin-top: 0;
+}
+
+.cursos-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.curso {
+    margin-bottom: 20px;
+}
+
+/*estilo boton*/
+.btn-primario {
+    background-color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 1000;
+}
+.btn-secundario{
+    background-color: brown;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 1000;
+}
+
+/* Estilos para el pie de página */
+.site-footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.site-footer span{
+    font-weight: 1000;
+}
+.site-footer p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.site-footer a {
+    color: white; /* Cambia el color de los enlaces en el pie de página */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilos para el apartado de contacto */
+.contacto {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.contacto-contenido {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-contacto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.formulario-contacto {
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.formulario-contacto h2 {
+    margin-top: 0;
+}
+
+.formulario-contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.formulario-contacto button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;  
+    cursor: pointer;
+}
+
+.entrada {
+    text-align: center;
+    color: black;
+    font-size: 100px;
+}
