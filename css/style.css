@@ -37,6 +37,9 @@ body {
     margin: 0 auto;
     padding: 0 150px;
 }
+.contenedor h2{
+    font-size: 15px;
+}
 
 .barra {
     display: flex;
