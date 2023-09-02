@@ -1,10 +1,8 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-/*encabezado*/
 .site-header {
     background-image: url(../img/banner.jpg);
     background-size: cover;
@@ -58,14 +56,12 @@ body {
     margin-top: 2rem;
 }
 
-/* Estilos para el contenido principal */
 .contenido-principal {
-    margin-top: 100px; /* Ajusta el margen superior para que comience después del encabezado */
+    margin-top: 100px;
     display: flex;
     gap: 20px;
 }
 
-/* Estilos para el blog */
 .blog {
     flex: 2;
 }
@@ -77,12 +73,11 @@ body {
 }
 
 .entrada-blog2 {
-    /*display: flex;*/
     gap: 20px;
     margin-bottom: 30px;
 }
 
-.imagen img {/*------------------*/
+.imagen img {
     max-width: 600px;
     height: auto;
 }
@@ -92,12 +87,9 @@ body {
     height: auto;
 }
 
-/* Estilos para el menú de cursos */
 .cursos {
     flex: 1;
-    /*background-color: #f9f9f9;*/
     padding: 20px;
-    /*box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);*/
 }
 
 .cursos h2 {
@@ -113,7 +105,6 @@ body {
     margin-bottom: 20px;
 }
 
-/*estilo boton*/
 .btn-primario {
     background-color: black;
     display: inline-block;
@@ -133,7 +124,6 @@ body {
     font-weight: 1000;
 }
 
-/* Estilos para el pie de página */
 .site-footer {
     background-color: black;
     color: white;
@@ -150,12 +140,11 @@ body {
 }
 
 .site-footer a {
-    color: white; /* Cambia el color de los enlaces en el pie de página */
+    color: white;
     text-decoration: none;
     margin: 0 10px;
 }
 
-/* Estilos para el apartado de contacto */
 .contacto {
     padding: 40px 0;
 }
@@ -214,7 +203,7 @@ body {
 }
 
 
-.formulario-contacto button {/*-----*/
+.formulario-contacto button {
     background-color: black;
     color: white;
     padding: 10px 20px;
