@@ -176,6 +176,7 @@ body {
 
 .formulario-contacto {
     background-color: white;
+    border: 1px solid #0f0f0f;
     padding: 50px;
     border-radius: 5px;
     margin-top: 20px;
@@ -188,15 +189,18 @@ body {
     justify-content: center; 
 
     margin: -5rem auto 0 auto;
+    
 }
 
 .formulario-contacto h2 {
     margin-top: 0;
+    
 }
 
 .formulario-contacto label {
     display: block;
     margin-bottom: 5px;
+    
 }
 
 .formulario-contacto input,
@@ -206,16 +210,18 @@ body {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    
 }
 
 
-.formulario-contacto button {
+.formulario-contacto button {/*-----*/
     background-color: black;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;  
     cursor: pointer;
+    
 }
 
 .entrada {
